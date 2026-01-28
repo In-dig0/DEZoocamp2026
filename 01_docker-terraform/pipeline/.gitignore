@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Parquet files
+*.parquet
+
+# CSV files
+*.csv
+*.csv.gz
+
+# IDE settings
+.vscode/
+
+# Terraform sensitive files
+terraform/keys/*.json
