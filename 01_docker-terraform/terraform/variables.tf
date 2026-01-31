@@ -20,7 +20,7 @@ variable "region" {
 variable "location" {
   description = "Project Location"
   #Update the below to your desired location
-  default     = "EU"
+  default     = "europe-west8"
 }
 
 variable "bq_dataset_name" {
