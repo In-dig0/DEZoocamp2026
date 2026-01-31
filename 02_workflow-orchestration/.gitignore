@@ -1,0 +1,4 @@
+# Specify files and directories to be ignored by Git
+
+# Secret environment variable files
+.env
