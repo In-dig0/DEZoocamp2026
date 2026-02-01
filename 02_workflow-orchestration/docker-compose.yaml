@@ -5,7 +5,9 @@ volumes:
     driver: local
   kestra_data:
     driver: local
-  # kestra_tmp:        # <--- Aggiungi questo volume nativo
+  pgadmin_data: # <--- AGGIUNGI QUESTO
+    driver: local    
+
   #     driver: local
 services:
   pgdatabase:
@@ -29,6 +31,8 @@ services:
       - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
     ports:
       - "8085:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin # <--- MAPPA LA PERSISTENZA      
     depends_on:
       pgdatabase:
         condition: service_started
@@ -87,7 +91,12 @@ services:
               path: /tmp/kestra-wd # Deve corrispondere esattamente al mount del volume
             runner:
               docker:
-                removeContainer: false                        
+                removeContainer: false  
+          ai:
+            type: gemini
+            gemini:
+              model-name: gemini-2.5-flash # Nota: il modello attuale è 1.5 o 2.0, verifica il nome
+              api-key: "${GEMINI_API_KEY}"                          
           url: http://localhost:8080/
     ports:
       - "8080:8080"
