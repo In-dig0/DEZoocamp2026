@@ -39,9 +39,10 @@ Data Engineering bootcamp organizzato da [DataTalks.Club](https://datatalks.club
 
 ### Contenuti
 - Google Cloud Storage -> Creazione di Bucket
-- Google BigQuery --> Creazione di dataset, tabelle 'esterne' e 'native'
-- Prtizionamento e clustering di tabelle
-- Query SQL
+- Script python per eseguire ingestion di file NYC Taxi (Parquet)
+- Google BigQuery --> Creazione di dataset, di tabelle 'esterne' e 'native'
+- Partizionamento e clustering di tabelle BigQuery
+- Creazione query SQL
 
 ## Progresso
 
