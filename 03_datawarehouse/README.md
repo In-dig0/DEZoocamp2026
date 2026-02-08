@@ -1,6 +1,6 @@
 # HOMEWORK WEEK3 - DATAWAREHOUSE # 
 
-### Question 1. What is count of records for the 2024 Yellow Taxi Data? (1 point) ###
+### Question 1. What is count of records for the 2024 Yellow Taxi Data? (1 point)
 
 SELECT  count(1) FROM `nodal-nirvana-485604-k6.DEZoocamp_demo_dataset.yellow_tripdata_2024_ext` LIMIT 1000;
 ---
