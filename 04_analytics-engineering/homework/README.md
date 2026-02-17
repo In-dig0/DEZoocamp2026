@@ -8,6 +8,7 @@ FROM `prod.fct_monthly_zone_revenue`;
 ```
 ![Screenshot Query Q3](./images/Q3.png)
 
+---
 
 **Q4: Zone with highest revenue for Green taxis in 2020?**
 
@@ -23,6 +24,7 @@ ORDER BY max(revenue_monthly_total_amount) DESC;
 ```
 ![Screenshot Query Q4](./images/Q4.png)
 
+---
 
 **Q5: Total trips for Green taxis in October 2019?**
 
@@ -37,6 +39,7 @@ GROUP BY revenue_year_month, service_type;
 ```
 ![Screenshot Query Q5](./images/Q5.png)
 
+---
 
 **Q6: Count of records in stg_fhv_tripdata (filter dispatching_base_num IS NULL)?**
 
@@ -46,3 +49,5 @@ FROM prod.stg_fhv_tripdata
 WHERE dispatching_base_num IS NOT NULL;
 ```
 ![Screenshot Query Q6](./images/Q6.png)
+
+---
