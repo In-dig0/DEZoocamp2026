@@ -16,8 +16,7 @@ service_type,
 max(revenue_monthly_total_amount) 
 FROM prod.fct_monthly_zone_revenue 
 WHERE service_type='Green' 
-AND revenue_month 
-BETWEEN '2020-01-01' AND '2020-12-01' 
+AND revenue_month BETWEEN '2020-01-01' AND '2020-12-01' 
 GROUP BY revenue_year, pickup_zone, service_type 
 ORDER BY max(revenue_monthly_total_amount) DESC;
 ```
