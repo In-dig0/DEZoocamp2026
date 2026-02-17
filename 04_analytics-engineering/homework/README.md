@@ -1,5 +1,7 @@
 # HOMEWORK WEEK4 - DBT
 
+![Screenshot Tables DuckDB](./images/tables_taxi_rides_ny_duckdb.png)
+
 **Q3: Count of records in fct_monthly_zone_revenue?**
 
 ```sql
