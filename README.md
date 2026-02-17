@@ -7,7 +7,7 @@ Data Engineering bootcamp organizzato da [DataTalks.Club](https://datatalks.club
 - **01-docker-terraform/** - Docker, PostgreSQL, Terraform, Google Cloud setup
 - **02-workflow-orchestration/** - Workflow orchestration con Kestra
 - **03-data-warehouse/** - Data warehousing con BigQuery
-- **04-analytics-engineering/** - Analytics engineering con dbt *(coming soon)*
+- **04-analytics-engineering/** - Analytics engineering con dbt
 - **05-batch/** - Batch processing con PySpark *(coming soon)*
 - **06-streaming/** - Stream processing con Kafka e Flink *(coming soon)*
 - **projects/** - Progetti finali *(coming soon)*
@@ -44,12 +44,22 @@ Data Engineering bootcamp organizzato da [DataTalks.Club](https://datatalks.club
 - Partizionamento e clustering di tabelle BigQuery
 - Creazione query SQL
 
+## Modulo 4: Analytics Engineering
+
+### Contenuti
+- Data modeling
+- DBT Core and DBT Cloud
+- Local setup: DBT Core and Duckdb
+- DBT Sources, Models, Seed and Macros
+- DBT Test, Documentation, Packages, Commands
+
+
 ## Progresso
 
 - [x] Module 1: Docker & Terraform
 - [x] Module 2: Workflow Orchestration
 - [x] Module 3: Data Warehouse
-- [ ] Module 4: Analytics Engineering
+- [x] Module 4: Analytics Engineering
 - [ ] Module 5: Batch Processing
 - [ ] Module 6: Stream Processing
 - [ ] Final Project
