@@ -8,7 +8,7 @@ Data Engineering bootcamp organizzato da [DataTalks.Club](https://datatalks.club
 - **02-workflow-orchestration/** - Workflow orchestration con Kestra
 - **03-data-warehouse/** - Data warehousing con BigQuery
 - **04-analytics-engineering/** - Analytics engineering con dbt
-- **05-_data_platform** - Data platform con Bruin
+- **05-data_platform** - Data platform con Bruin
 - **05-batch/** - Batch processing con PySpark *(coming soon)*
 - **06-streaming/** - Stream processing con Kafka e Flink *(coming soon)*
 - **projects/** - Progetti finali *(coming soon)*
@@ -54,14 +54,14 @@ Data Engineering bootcamp organizzato da [DataTalks.Club](https://datatalks.club
 - DBT Sources, Models, Seed and Macros
 - DBT Test, Documentation, Packages, Commands
 
-## Modulo 5: Data Platform (Bruin)
+## Modulo 5: Data Platform
 
 ### Contenuti
-- Data ingestion (extract from sources to your warehouse)
-- Data transformation (cleaning, modeling, aggregating)
-- Data orchestration (scheduling and dependency management)
-- Data quality (built-in checks and validation)
-- Metadata management (lineage, documentation)
+- Bruin: Data ingestion (extract from sources to your warehouse)
+- Bruin: Data transformation (cleaning, modeling, aggregating)
+- Bruin: Data orchestration (scheduling and dependency management)
+- Bruin: Data quality (built-in checks and validation)
+- Bruin: Metadata management (lineage, documentation)
 
 ## Progresso
 
