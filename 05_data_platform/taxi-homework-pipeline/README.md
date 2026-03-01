@@ -7,7 +7,7 @@
 SELECT min(trip_pickup_date_time), max(trip_dropoff_date_time) 
 FROM taxi_homework_pipeline_dataset._data_engineering_zoomcamp_api; 
 ```
-![Screenshot Query Q3](./images/Q1.png)
+![Screenshot Query Q1](./images/Q1.png)
 
 ---
 
@@ -18,7 +18,7 @@ SELECT payment_type, count(1)/100
 FROM taxi_homework_pipeline_dataset.taxi_records 
 GROUP BY payment_type;
 ```
-![Screenshot Query Q4](./images/Q2.png)
+![Screenshot Query Q2](./images/Q2.png)
 
 ---
 
@@ -28,6 +28,6 @@ GROUP BY payment_type;
 SELECT sum(tip_amt) 
 FROM taxi_homework_pipeline_dataset.taxi_records;
 ```
-![Screenshot Query Q5](./images/Q3.png)
+![Screenshot Query Q3](./images/Q3.png)
 
 ---
