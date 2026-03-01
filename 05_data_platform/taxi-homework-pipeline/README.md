@@ -1,5 +1,6 @@
 # Workshop 1: Ingestion with dlt for Data Engineering Zoomcamp 2026
 
+[dlt pipeline show](dlt_workspace_dashboard.html)
 
 **What is the start date and end date of the dataset?**
 
