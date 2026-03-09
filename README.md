@@ -22,46 +22,55 @@ Data Engineering bootcamp organizzato da [DataTalks.Club](https://datatalks.club
 ## Modulo 1: Docker e Terraform
 
 ### Contenuti
-- Introduzione a Docker e containerizzazione
-- PostgreSQL in Docker
-- Ingestione dati NYC Taxi (CSV e Parquet)
-- pgAdmin per gestione database
-- Introduzione a Terraform
-- Setup Google Cloud Platform (GCP)
+✅ Introduzione a Docker e containerizzazione
+✅ PostgreSQL in Docker
+✅ Ingestione dati NYC Taxi (CSV e Parquet)
+✅ pgAdmin per gestione database
+✅ Introduzione a Terraform
+✅ Setup Google Cloud Platform (GCP)
 
 ## Modulo 2: Work Flow Orchestration
 
 ### Contenuti
-- Introduizione a Kestra
-- Costruzione ed esecuzione di Flow on demand
-- Costruzione ed esecuzione di Flow schedulati
+✅ Introduizione a Kestra
+✅ Costruzione ed esecuzione di Flow on demand
+✅ Costruzione ed esecuzione di Flow schedulati
 
 ## Modulo 3: Data Warehouse
 
 ### Contenuti
-- Google Cloud Storage -> Creazione di Bucket
-- Script python per eseguire ingestion di file NYC Taxi (Parquet)
-- Google BigQuery --> Creazione di dataset, di tabelle 'esterne' e 'native'
-- Partizionamento e clustering di tabelle BigQuery
-- Creazione query SQL
+✅ Google Cloud Storage -> Creazione di Bucket
+✅ Script python per eseguire ingestion di file NYC Taxi (Parquet)
+✅ Google BigQuery --> Creazione di dataset, di tabelle 'esterne' e 'native'
+✅ Partizionamento e clustering di tabelle BigQuery
+✅ Creazione query SQL
 
 ## Modulo 4: Analytics Engineering
 
 ### Contenuti
-- Data modeling
-- DBT Core and DBT Cloud
-- Local setup: DBT Core and Duckdb
-- DBT Sources, Models, Seed and Macros
-- DBT Test, Documentation, Packages, Commands
+✅ Data modeling
+✅ DBT Core and DBT Cloud
+✅ Local setup: DBT Core and Duckdb
+✅ DBT Sources, Models, Seed and Macros
+✅ DBT Test, Documentation, Packages, Commands
 
 ## Modulo 5: Data Platform
 
 ### Contenuti
-- Bruin: Data ingestion (extract from sources to your warehouse)
-- Bruin: Data transformation (cleaning, modeling, aggregating)
-- Bruin: Data orchestration (scheduling and dependency management)
-- Bruin: Data quality (built-in checks and validation)
-- Bruin: Metadata management (lineage, documentation)
+✅ Bruin: Data ingestion (extract from sources to your warehouse)
+✅ Bruin: Data transformation (cleaning, modeling, aggregating)
+✅ Bruin: Data orchestration (scheduling and dependency management)
+✅ Bruin: Data quality (built-in checks and validation)
+✅Bruin: Metadata management (lineage, documentation)
+
+## Modulo 6: Batch Processing
+
+### Contenuti
+✅ Set up PySpark and create Spark sessions
+✅ Read and process Parquet files at scale
+✅ Repartition data for optimal performance
+✅ Analyze millions of taxi trips with DataFrames
+✅ Use Spark UI for monitoring jobs
 
 ## Progresso
 
@@ -70,6 +79,6 @@ Data Engineering bootcamp organizzato da [DataTalks.Club](https://datatalks.club
 - [x] Module 3: Data Warehouse
 - [x] Module 4: Analytics Engineering
 - [x] Module 5: Data Platform
-- [ ] Module 5: Batch Processing
+- [x] Module 5: Batch Processing
 - [ ] Module 6: Stream Processing
 - [ ] Final Project
