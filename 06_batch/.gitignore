@@ -1,0 +1,15 @@
+# Escludi tutti i file di dati
+*.csv
+*.csv.gz
+*.parquet
+
+# Escludi intere cartelle di dati e temporanee
+data/
+tmp/
+zones/
+fhvhv/
+
+# Escludi file di sistema e checkpoint di Jupyter
+.ipynb_checkpoints/
+__pycache__/
+.venv/
