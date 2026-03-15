@@ -72,6 +72,14 @@ Data Engineering bootcamp organizzato da [DataTalks.Club](https://datatalks.club
 - Analyze millions of taxi trips with DataFrames
 - Use Spark UI for monitoring jobs
 
+## Modulo 7: Stream Processing
+
+### Contenuti
+- Set up Redpanda as a Kafka replacement
+- Build Kafka producers and consumers in Python
+- Create tumbling and session windows in Flink
+- Analyze real-time taxi trip data with stream processing
+
 ## Progresso
 
 - [x] Module 1: Docker & Terraform
@@ -79,6 +87,6 @@ Data Engineering bootcamp organizzato da [DataTalks.Club](https://datatalks.club
 - [x] Module 3: Data Warehouse
 - [x] Module 4: Analytics Engineering
 - [x] Module 5: Data Platform
-- [x] Module 5: Batch Processing
-- [ ] Module 6: Stream Processing
+- [x] Module 6: Batch Processing
+- [x] Module 7: Stream Processing
 - [ ] Final Project
