@@ -18,7 +18,7 @@ uv run producer.py
 
 ---
 
-**Q3: Question 3. Consumer - trip distance?**
+**Q3: Consumer - trip distance?**
 
 ```sql
 uv run consumer.py
